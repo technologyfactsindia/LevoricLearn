@@ -15,7 +15,11 @@ function search_programming() {
     }
 }
 // DarkMode Of Levoric //
-function levoric_Programming() {
-    var levoriclearn = document.body;
-    levoriclearn.classList.Dark("Dark-mode");
-}
+function Levoric_learning() {
+    let LevoricBtn = document.body;
+    if (LevoricBtn.classList.toggle("dark"));
+    else {
+        (LevoricBtn.classList.toggle("White").length
+        )
+    }
+    }

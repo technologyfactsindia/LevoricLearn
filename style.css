@@ -1,6 +1,25 @@
 header {
     padding: 10px;
 }
+header{
+    text-align: right;
+    }
+    button {
+        cursor: pointer;
+        border: 1px solid #cccccc;
+        text-align: right;
+        padding: 5px;
+        margin-left: 8px;
+        border-radius: 20px;
+        border-left: #222;
+        border-right: #222;
+        border-top: #222;
+        border-color: #222;
+    }
+    .dark{
+        background-color: black;
+  color: white;
+    }
 h1 {
     color: rgb(31, 110, 140);
     text-align: center;
@@ -15,7 +34,7 @@ div {
     margin-right: auto;
 }
 nav a:any-link {
-    color: rgb(0, 51, 124);
+    color: rgb(66, 105, 158);
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 19px;
@@ -66,7 +85,7 @@ a:hover:any-link {
     text-align: left;
 }
 .container-main-window {
-    max-width: 1400px;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -169,10 +188,12 @@ a:hover:any-link {
     font-family: 'Times New Roman', Times, serif;
   }
 .HTML-2 {
-    background-color: rgb(6, 143, 255);
-    color: rgb(0, 0, 0);   
-    width: 117px;
+    background-color: FFA559;
+    color: rgb(226, 226, 226);   
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 
 }
@@ -193,66 +214,59 @@ a:hover:any-link {
 .link-20 a:any-link {
     text-decoration: underline;
 }
-.Output-5 {
-    color: rgb(0, 4, 255);
-    display: inline-block;
-    text-decoration: underline;
-}
-.output-9 {
-    display: inline-block;
-    text-decoration: underline;
-}
-a.link-21 {
-    color: blue;
-}
-a.link-20 {
-    color: blue;
-}
-a.link-22 {
-    color: blue;
-    display: inline-block;
-}
 .CSS-3 {
     background-color: rgb(236, 242, 255);
     color: rgb(83, 127, 231);   
-    width: 170px;
+    width: 110px;
     border-radius: 20px;
     padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
 }
 .CSS-4 {
     background-color: rgb(236, 242, 255);
     color: rgb(83, 127, 231);   
-    width: 80px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 }
 .TypeScript-5 {
     background-color: rgb(255, 217, 90);
     color: rgb(83, 127, 231);   
-    width: 190px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 
 }
 .Python-6 {
     background-color: 64CCC5;
     color: rgb(83, 127, 231);   
-    width: 145px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 }
 .JavaScript-7 {
     background-color: rgb(244, 209, 96);
     color: rgb(83, 127, 231);   
-    width: 190px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 }
 .JQuery-8 {
     background-color: rgb(251, 238, 172);
     color: rgb(83, 127, 231);   
-    width: 130px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17;
     padding: 10px;
 }
 .React-9 {
@@ -260,68 +274,88 @@ a.link-22 {
     color: rgb(83, 127, 231);   
     width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17;
     padding: 10px;
 }
 .C-10 {
     background-color: rgb(6, 143, 255);
     color: rgb(83, 127, 231);   
-    width: 85px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 }
 .Java-11 {
     background-color: rgb(192, 127, 0);
     color: rgb(83, 127, 231);   
-    width: 85px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 }
 .Chash-12 {
     background-color: rgb(6, 143, 255);
     color: rgb(83, 127, 231);   
-    width: 85px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 }
 .SQL-13 {
     background-color: rgb(236, 242, 255);
     color: rgb(83, 127, 231);   
-    width: 85px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 }
 .NodeJs-14 {
     background-color: rgb(0, 85, 85);
     color: rgb(83, 127, 231);   
-    width: 145px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font: 17px;
     padding: 10px;
 }.C-15 {
     background-color: rgb(6, 143, 255);
     color: rgb(83, 127, 231);   
-    width: 85px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font: 17px;
     padding: 10px;
 }
 .PHP-16 {
     background-color: rgb(130, 148, 196);
     color: rgb(83, 127, 231);   
-    width: 85px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 }
 .Editor-17 {
     background-color: 009EFF;
     color: rgb(83, 127, 231);   
-    width: 230px;
+    width: 110px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 }
 .Windows-18 {
     background-color: rgb(0, 231, 255);
     color: rgb(83, 127, 231);   
-    width: 500px;
+    width: 255px;
     border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding: 10px;
 }
 a:any-link {
@@ -592,6 +626,12 @@ ul li,
     border-radius: 2px;
     background-color: black;
 }
+.Levoric-17 a:hover:any-link {
+    color: white;
+    width: 100px;
+    border-radius: 2px;
+    background-color: black;
+}
 .Levoric-1 a:hover:any-link {
     color: white;
     width: 100px;
@@ -678,4 +718,10 @@ ul li,
 .levoric-footer-learn-k {
     color:rgb(0, 4, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Levoric_learning-aria-1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
 }
