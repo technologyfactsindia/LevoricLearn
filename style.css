@@ -679,13 +679,3 @@ ul li,
     color:rgb(0, 4, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-}
-.Dark-mode {
-    background-color: black;
-    color: white;
-}
